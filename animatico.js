@@ -1,5 +1,5 @@
 /*
- * Node script that takes combines the animation data of every ThreeJS FBX converted JSON files in a directory.
+ * Node script that combines the animation data of every ThreeJS FBX converted JSON file in a directory.
  * The script assumes that your folder only has similar JS files that all have animation data.
  * It will go through and pull the animation from each file and store it in one array.
  * It then duplicates all the other information (UVS, Vertex, Normals, Materials) from the first file in the 
